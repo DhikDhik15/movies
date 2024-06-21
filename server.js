@@ -26,4 +26,11 @@ app.listen(SERVICE, () => {
     console.log(`--->Service PORT ${SERVICE}<---`);
 });
 
+// REDIS
+REDIS_PORT = process.env.REDIS_PORT;
+const redisClient = require('./configRedis');
+redisClient.connect(
+    console.log(`--->Redis port ${REDIS_PORT} <---`)
+)
+
 process.setMaxListeners(0);
