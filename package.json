@@ -1,0 +1,20 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "simple movie list from IMDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "hello"
+  },
+  "keywords": [
+    "movie"
+  ],
+  "author": "dhika",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
